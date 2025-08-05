@@ -1,3 +1,4 @@
 a=20
 b=40
-print(a+b)
+c=30
+print(a+b+c)
