@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Registration Form</title>
+</head>
+<body>
+	<b>Full Name: <input type="text" placeholder="Enter your name"></b><br><br>
+	<b>Email Id: <input type="text" placeholder="Enter your email id"></b><br><br> 
+	<b>Phone number: <input type="tel" placeholder="Enter your phone number"></b><br><br>
+	<b>Gender: <br></b>
+	<input type="radio" id="Female" name="gender" value="Female"> 
+	<label for="Female">Female</label><br> 
+	<input type="radio" id="Male" name="gender" value="Male"> 
+	<label for="Male">Male</label><br> 
+	<input type="radio" id="Other" name="gender" value="Other"> 
+	<label for="Other">Other</label><br><br>
+	<b>Interests: <br></b>
+	<input type="checkbox" id="music" name="interests" value="music">
+	<label for="music">Music</label><br> 
+	<input type="checkbox" id="art" name="interests" value="art"> 
+	<label for="art">Art</label><br> 
+	<input type="checkbox" id="cooking" name="interests" value="cooking"> 
+	<label for="cooking">Cooking</label><br>
+	<input type="checkbox" id="sports" name="interests" value="sports"> 
+	<label for="sports">Sports</label><br>
+	<input type="checkbox" id="reading" name="interests" value="reading"> 
+	<label for="reading">Reading</label><br><br>
+	<label for="rating">City:</label>
+ 	<select id="city" name="city">
+ 		<option value="Visakhapatnam">Visakhapatnam</option>
+ 		<option value="Vijayawada">Vijayawada</option>
+ 		<option value="Guntur">Guntur</option>
+ 		<option value="Tirupati">Tirupati</option>
+ 		<option value="Rajahmundry">Rajahmundry</option>
+ 	</select><br><br>
+ 	<label for="extraDetails">Extra Details:</label><br>
+   <textarea id="extraDetails" placeholder="Enter any extra details" name="extraDetails" rows="5" cols="50"></textarea><br><br>
+   <button type="submit">Submit</button>
+   <button type="reset">Reset</button>
+   <button type="button" onclick="alert('Registration confirmed!')">Confirm</button>
+
+  </form>
+</body>
+</html>
